@@ -6,10 +6,17 @@ import './App.css'
 
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-blue-500">
-      <h1 className="text-white text-4xl font-bold">
-        React + Tailwind is working 🚀
-      </h1>
+    <div className="App">
+      <div className="container">
+        <div className="left">
+          <h1>Threads</h1>
+          <p>Threads is a new social media platform developed by Meta, the company behind Facebook and Instagram. It is designed to be a more private and intimate space for users to connect with their close friends and family.</p>
+          <button className="download-btn">Download Now</button>
+        </div>
+        <div className="right">
+          <img src={heroImg} alt="Hero" />
+        </div>
+      </div>
     </div>
   )
 }
