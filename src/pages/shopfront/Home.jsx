@@ -1,4 +1,5 @@
-import Navbar from "../../components/common/Navbar";  
+import Navbar from "../../components/common/Navbar"; 
+import Footer from "../../components/common/Footer"; 
 function Home() {
     return (
         <>
@@ -11,6 +12,8 @@ function Home() {
                 Discover styles that fit you 
             </p>
         </div>
+
+        <Footer />
         </>
     );
 }
