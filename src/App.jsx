@@ -3,15 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Home from "./pages/shopfront/Home";
 
 function App() {
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-blue-500">
-      <h1 className="text-white text-4xl font-bold">
-        React + Tailwind is working 🚀
-      </h1>
-    </div>
+    <>
+    <Home />
+    </>
   )
 }
 export default App
