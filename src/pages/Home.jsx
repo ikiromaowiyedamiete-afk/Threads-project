@@ -10,7 +10,6 @@ import Footer from "../components/Footer";
 
 function Home() {
   return (
-  
     <>
       <Navbar />
       <Hero />
@@ -19,7 +18,7 @@ function Home() {
       <Discover />
       <Features />
       <Testimonials />
-      <Newsletter />
+      <NewsLetter />
       <Footer />
     </>
   );

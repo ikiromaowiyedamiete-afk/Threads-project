@@ -1,4 +1,4 @@
-function Newsletter() {
+function NewsLetter() {
   return (
     <section className="bg-black text-white py-16 px-8 text-center">
 
@@ -28,4 +28,4 @@ function Newsletter() {
   );
 }
 
-export default Newsletter;
+export default NewsLetter;
